@@ -1,6 +1,6 @@
-<h1 align="center">Memory Joker Game</h1>
+<h1 align="center">Memory Cartoon Game</h1>
 
-[View the live project here.](https://philipwilliams0.github.io//)
+[View the live project here.](https://philipwilliams0.github.io/MemoryGame/)
 
 > Memory of a joker is a fictional memory game for educational purposes and meets all requirements for testing the skills i've justy learned in MS2.
 
