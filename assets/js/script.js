@@ -111,3 +111,55 @@ function movesCounter() {
     // Keep track of the number of moves for every pair checked
     moves ++;
   }
+
+// Start Rating 
+function starRating() {
+    if (moves === 14) {
+      // First element child is the <i> within the <li>
+      star[2].firstElementChild.classList.remove("fa-star");
+      starCount--;
+    }
+    if (moves === 18) {
+      star[1].firstElementChild.classList.remove("fa-star");
+      starCount--;
+    }
+  }
+  
+  function compareTwo() {
+    // When there are 2 cards in the opened array
+    if (opened.length === 2) {
+        // Disable any further mouse clicks on other cards
+        document.body.style.pointerEvents = "none";
+    }
+    // Compare the two images src
+    if (opened.length === 2 && opened[0].src === opened[1].src) {
+      // If matched call match()
+      match();
+      // console.log("It's a Match!");
+    } else if (opened.length === 2 && opened[0].src != opened[1].src) {
+      // If No match call noMatch()
+      noMatch();
+      // console.log("NO Match!");
+    }
+  }
+  
+  function match() {
+    /* Access the two cards in opened array and add
+    the class of match to the imgages parent: the <li> tag
+    */
+    setTimeout(function() {
+      opened[0].parentElement.classList.add("match");
+      opened[1].parentElement.classList.add("match");
+      // Push the matched cards to the matched array
+      matched.push(...opened);
+      // Allow for further mouse clicks on cards
+      document.body.style.pointerEvents = "auto";
+      // Check to see if the game has been won with all 8 pairs
+      winGame();
+      // Clear the opened array
+      opened = [];
+    }, 600);
+    // Call movesCounter to increment by one
+    movesCounter();
+    starRating();
+  }
