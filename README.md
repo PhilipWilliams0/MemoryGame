@@ -4,22 +4,29 @@
 
 > Memory cartoon game is a fictional memory game to challenge the mind.
 
----
+## <h2 align="center"><img src="assets/TestingJS1/alldevices.png"></h2>
 
 ## User Experience (UX)
 
 - ### User stories
 
   - #### As a user i want:
-
-        1. Enjoy game and design
-        2. As a First Time Visitor,
-        3. As a First Time Visitor,
-        5. As a First Time Visitor,
+  - Through the design, create an invitation to play and navigate the game instinctively.
+  - To persuade and influence the user to have multiple turns.
+  - To test and improve memory skills in an entertaining and enjoyable way.
+  - Clear scoring when the user completes the game in order to make progress and improve outcome.
 
 - ### Strategy
 
+  The goal is to create a simple, fun game that challenges the person to try again.
+
 - ### Scope
+
+  Feature that should be within the project:
+
+  - Header with name
+  - timer for time taken to complete
+  - move counter for the amount of moves taken.
 
 - ### Structure
 
@@ -28,15 +35,19 @@ A mockup was created within "Balsamiq Wireframes". Some changes made while creat
 - #### Color Scheme
 
   - Colors used
-  - ![#1EBBA3](https://via.placeholder.com/15/1EBBA3/000000?text=+) `#1EBBA3`
+  - ![#ffcc44](https://via.placeholder.com/15/ffcc44/000000?text=+) `#ffcc44`
+  - ![#53c7fbv](https://via.placeholder.com/15/53c7fb/000000?text=+) `#53c7fb`
+  - ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff`
 
 - #### Typography
 
-  - I’ve chosen [#](#)
+  - I’ve chosen [Poppins](https://fonts.google.com/specimen/Poppins?query=poppin)
+    Poppins is one of the Geometric sans serif typefaces that have been a popular design tool for building websites. Each letterform is nearly monolinear, with optical corrections applied to stroke joints were necessary to maintain an even typographic colour.
 
 - #### Imagery
 
-  -
+I’ve chosen [CLEANPNG](https://www.cleanpng.com/)
+Due to the size requirements of the type of image.
 
 - ### Wireframes
 
@@ -44,23 +55,17 @@ A mockup was created within "Balsamiq Wireframes". Some changes made while creat
 
   The wireframes include:
 
-  - Desktop Wireframe - [View](#)
+  - Desktop Wireframe - [View](assets/wireframe/DesktopWireframe.png)
 
-  - Tablet Wireframe - [View](#)
+  - Tablet Wireframe - [View](assets/wireframe/TabletWireframe.png)
 
-  - Mobile Wireframe - [View](#)
+  - Mobile Wireframe - [View](assets/wireframe/PhoneWireframe.png)
 
 - ### Features
 
-  - its a memory but i want the user to be challenged not only by th amount of cards but also time and amount of moves to complete all flips.
+  - its a memory, but I want the user to be challenged not only by the number of cards but also the time and amount of moves to complete all flips.
 
-  - Theme is old fashined but will stick with a deck of cards for the flip and also background image.
-
-  - As its a game format i dont want links/navbar but rather icons with popups using recently learned JavaScript.
-
-  - I also want to store a session stored username entered by the user.
-
-  - dependent progression changeable theme and background music both with on/off buttons
+  - As it's a game format, I don't want links/navbar, but rather icons with popups using recently learned JavaScript.
 
   - Responsive on all device sizes
 
@@ -95,77 +100,32 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-    <h2 align="center"><img src="#"></h2>
-
-    <h2 align="center"><img src="#"></h2>
+    <h2 align="center"><img src="assets/TestingJS1/testingIndex.html.png"></h2>
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-    <h2 align="center"><img src="#"></h2>
+    <h2 align="center"><img src="assets/TestingJS1/testingCSS.png"></h2>
 
-    <h2 align="center"><img src="#"></h2>
+- [jslint](https://www.jslint.com/)
+
+   <h2 align="center"><img src="assets/TestingJS1/testingJS.png"></h2>
+
+   <h2 align="center"><img src="aassets/TestingJS1/testingJS2.png"></h2>
 
 ### Testing User Stories from User Experience (UX) Section
 
-- #### First Time Visitor Goals
+- #### Testing User Stories
 
-  1. As a First Time Visitor,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
-
-  2. As a First Time Visitor,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
-
-  3. As a First Time Visitor,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
-
-  4. As a First Time Visitor,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
-
-- #### Returning Visitor Goals
-
-  1. As a Returning Visitor,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
-
-  2. As a Returning Visitor,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
+  1. Through the design, create an invitation to play and navigate the game instinctively.
+  <h2 align="center"><img src="assets/TestingJS1/user1.png"></h2>
+  2. To persuade and influence the user to have multiple turns.
+  <h2 align="center"><img src=""></h2>
+  3. To test and improve memory skills in an entertaining and enjoyable way.
+  <h2 align="center"><img src=""></h2>
+  4. To test and improve memory skills in an entertaining and enjoyable way.
+  <h2 align="center"><img src=""></h2>
 
 - ##### Frequent User Goals
-
-  1. As a Frequent User,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
-
-  2. As a Frequent User,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
-
-  3. As a Frequent User,
-
-     -
-
-     <h2 align="center"><img src="#"></h2>
 
 ### Further Testing
 
@@ -174,7 +134,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate th
 
 ### Known Bugs
 
--
+-due time was unable to check
 
 ## Deployment
 
@@ -208,20 +168,15 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-git clone https://github.com/PhilipWilliams0/uStringsTennis
+git clone https://github.com/PhilipWilliams0/MemoryGame
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
 $ git clone https://github.com/PhilipWilliams0/uStringsTennis
-> Cloning into 'uStringsTennis'...
->
->
->
->
->
->
+> Cloning into 'MemoryGame'...
+
 ```
 
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
@@ -235,6 +190,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Content
 
 All content was written by the developer with help from:
+
+[CodeSolution](https://ourcodesolution.com/blog/card-matching-game-memory-card-game-in-javascript/)
 
 ### Media
 

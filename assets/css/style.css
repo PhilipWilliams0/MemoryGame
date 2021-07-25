@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +18,7 @@ html {
 body {
   /* Background pattern from Subtle Patterns */
   background: url("/img/ignasi_pattern_s.png");
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   /*one Em roughly ten pixels (16 x 62.5% = 10)*/
   font-size: 62.5%;
   letter-spacing: 1.5px;
