@@ -1,4 +1,4 @@
-const deckCards = ["RJ.png", "RG.png", "QH.png", "QH.png", "KD.png", "KD.png", "KC.png", "KC.png", "JS.png", "JS.png", "JR.png", "JR.png", "AH.png", "AH.png", "10C.png", "10C.png"];
+const deckCards = ["2C.gif", "2C.gif", "Boat.png", "Boat.png", "KD.png", "KD.png", "KC.png", "KC.png", "JS.png", "JS.png", "JR.png", "JR.png", "AH.png", "AH.png", "10C.png", "10C.png"];
 
 const deck = document.querySelector(".deck");
 let opened = [];
