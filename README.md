@@ -2,7 +2,7 @@
 
 [View the live project here.](https://philipwilliams0.github.io/MemoryGame/)
 
-> Memory of a joker is a fictional memory game for educational purposes and meets all requirements for testing the skills i've justy learned in MS2.
+> Memory cartoon game is a fictional memory game to challenge the mind.
 
 ---
 
@@ -10,37 +10,33 @@
 
 - ### User stories
 
-  - #### First Time Visitor Goals
+  - #### As a user i want:
 
-        1. As a First Time Visitor,
+        1. Enjoy game and design
         2. As a First Time Visitor,
         3. As a First Time Visitor,
         5. As a First Time Visitor,
 
-  - #### Returning Visitor Goals
+- ### Strategy
 
-        1. As a Returning Visitor,
-        2. As a Returning Visitor,
+- ### Scope
 
-  - ##### Frequent User Goals
+- ### Structure
 
-        1. As a Frequent User,
-        2. As a Frequent User,
-        3. As a Frequent User,
+A mockup was created within "Balsamiq Wireframes". Some changes made while creating the game: arrangement of buttons, game cards layout, window with game results.
 
-- ### Design
+- #### Color Scheme
 
-  - #### Color Scheme
+  - Colors used
+  - ![#1EBBA3](https://via.placeholder.com/15/1EBBA3/000000?text=+) `#1EBBA3`
 
-    - Colors used
-    - ![#1EBBA3](https://via.placeholder.com/15/1EBBA3/000000?text=+) `#1EBBA3`
+- #### Typography
 
-  - #### Typography
+  - I’ve chosen [#](#)
 
-    - I’ve chosen [#](#)
+- #### Imagery
 
-  - #### Imagery
-    -
+  -
 
 - ### Wireframes
 
