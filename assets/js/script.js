@@ -163,3 +163,60 @@ function starRating() {
     movesCounter();
     starRating();
   }
+
+// No Match 
+
+function noMatch() {
+    /* After 700 miliseconds the two cards open will have
+    the class of flip removed from the images parent element <li>*/
+    setTimeout(function() {
+      // Remove class flip on images parent element
+      opened[0].parentElement.classList.remove("flip");
+      opened[1].parentElement.classList.remove("flip");
+      // Allow further mouse clicks on cards
+      document.body.style.pointerEvents = "auto";
+      // Remove the cards from opened array
+      opened = [];
+    }, 700);
+    // Call movesCounter to increment by one
+    movesCounter();
+    starRating();
+  }
+  
+  function AddStats() {
+    // Access the modal content div
+    const stats = document.querySelector(".modal-content");
+    // Create three different paragraphs
+    for (let i = 1; i <= 3; i++) {
+      // Create a new Paragraph
+      const statsElement = document.createElement("p");
+      // Add a class to the new Paragraph
+      statsElement.classList.add("stats");
+      // Add the new created <p> tag to the modal content
+      stats.appendChild(statsElement);
+    }
+    // Select all p tags with the class of stats and update the content
+    let p = stats.querySelectorAll("p.stats");
+        // Set the new <p> to have the content of stats (time, moves and star rating)
+      p[0].innerHTML = "Time to complete: " + minutes + " Minutes and " + seconds + " Seconds";
+      p[1].innerHTML = "Moves Taken: " + moves;
+      p[2].innerHTML = "Your Star Rating is: " + starCount + " out of 3";
+  }
+  
+  function displayModal() {
+  // Access the modal <span> element (x) that closes the modal
+  const modalClose = document.getElementsByClassName("close")[0];
+    // When the game is won set modal to display block to show it
+    modal.style.display= "block";
+  
+    // When the user clicks on <span> (x), close the modal
+    modalClose.onclick = function() {
+      modal.style.display = "none";
+    };
+  // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  }
